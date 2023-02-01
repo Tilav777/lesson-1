@@ -10,8 +10,26 @@ li {
 a {
     text-decoration: none;
     color: #333;
+    transition: all 0.3s;
+}
+a:hover {
+    color: #ccc;
+    
 }
 .container {
     width: 1280px;
     margin: auto;
+}
+.wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+header {
+    padding: 25px 0;
 }
